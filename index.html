@@ -11,11 +11,7 @@
 <body>
     <header>
         <nav class="nav-bar">
-            <ul class="cont-ul">
-                <li class="itens-nav">JavaScript</li>
-                <li class="itens-nav">CSS</li>
-                <li class="itens-nav">HTML</li>
-            </ul>
+         
         </nav>
     </header>
     
@@ -23,9 +19,9 @@
        
 
         <section class="cont-ip">
-            <h1 class="titul">Calculadora IMC</h1>
-            <form action="" class="form-inps">
             
+            <form action="" class="form-inps">
+            <h1 class="titul">Calculadora IMC</h1>
                     
                     <input type="number" name="peso" data-peso class="peso" placeholder="Digite seu peso">
 
@@ -37,13 +33,18 @@
                     <button>Enviar</button>
             
             </form>
+
+            <div class="result">
+                <h3>RESULTADO:</h3>
+                <span data-resultado></span>
+            </div>
         </section>
         
         <section class="tabela">
             
             <table class="tab-1">
                 <td>
-                    <h2>Tabela IMC</h2>
+                    <h3>Tabela IMC</h3>
                 </td>
                 <tr>
                     
@@ -78,7 +79,7 @@
 
                 <table class="tab-2">
                     <td>
-                        <h2>Resultado</h2>
+                        <h3>Resultado</h3>
                     </td>
                     <tr>
                         <td class="li-tabela">Abaixo do peso</td>
